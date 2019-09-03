@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="679,492">
+    <VerticalLayout width="679" height="492" bkimage="登录背景.png">
+        <Button name="BTN_CLOSE" float="true" pos="612,11,0,0" width="48" height="31" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="frame_btn_close_normal.bmp" hotimage="frame_btn_close_hot.bmp" pushedimage="frame_btn_close_down.bmp" />
+        <Button name="BTN_MIN" float="true" pos="556,11,0,0" width="48" height="31" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="min1.png" hotimage="min2.png" pushedimage="min3.png" />
+        <Label name="ACCOUNT" float="true" pos="185,166,0,0" width="62" height="40" bkimage="登录账户.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Label name="PASSWORD" float="true" pos="185,226,0,0" width="62" height="40" bkimage="密码.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Edit name="EDIT_USER_NAME" float="true" pos="266,169,0,0" width="196" height="32" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Edit name="EDIT_USER_PASSWORD" float="true" pos="266,228,0,0" width="196" height="32" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Button name="BTN_LOGIN" text="登    录" float="true" pos="304,288,0,0" width="87" height="33" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+    </VerticalLayout>
+</Window>

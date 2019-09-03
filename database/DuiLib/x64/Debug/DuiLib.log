@@ -1,0 +1,63 @@
+﻿  StdAfx.cpp
+  UIlib.cpp
+  WinImplBase.cpp
+  UIDelegate.cpp
+  Utils.cpp
+  UIBase.cpp
+Core\UIBase.cpp(295): warning C4244: “=”: 从“WPARAM”转换到“UINT”，可能丢失数据
+Core\UIBase.cpp(307): warning C4244: “参数”: 从“WPARAM”转换到“int”，可能丢失数据
+  UIContainer.cpp
+  UIControl.cpp
+  UIDlgBuilder.cpp
+  UIManager.cpp
+  UIMarkup.cpp
+Core\UIMarkup.cpp(209): warning C4244: “=”: 从“__int64”转换到“ULONG”，可能丢失数据
+Core\UIMarkup.cpp(214): warning C4244: “=”: 从“__int64”转换到“ULONG”，可能丢失数据
+Core\UIMarkup.cpp(489): warning C4244: “初始化”: 从“__int64”转换到“ULONG”，可能丢失数据
+Core\UIMarkup.cpp(490): warning C4244: “=”: 从“__int64”转换到“ULONG”，可能丢失数据
+Core\UIMarkup.cpp(506): warning C4244: “=”: 从“__int64”转换到“ULONG”，可能丢失数据
+Core\UIMarkup.cpp(514): warning C4244: “=”: 从“__int64”转换到“ULONG”，可能丢失数据
+  UIRender.cpp
+Core\UIRender.cpp(1947): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  UIChildLayout.cpp
+  UIHorizontalLayout.cpp
+  UITabLayout.cpp
+  UITileLayout.cpp
+  UIVerticalLayout.cpp
+  UIActiveX.cpp
+  UIButton.cpp
+  UICheckBox.cpp
+  UICombo.cpp
+  正在生成代码...
+  正在编译...
+  UIComboBox.cpp
+  UIDateTime.cpp
+  UIEdit.cpp
+  UILabel.cpp
+Control\UILabel.cpp(354): warning C4267: “参数”: 从“size_t”转换到“INT”，可能丢失数据
+Control\UILabel.cpp(356): warning C4267: “参数”: 从“size_t”转换到“INT”，可能丢失数据
+Control\UILabel.cpp(358): warning C4267: “参数”: 从“size_t”转换到“INT”，可能丢失数据
+Control\UILabel.cpp(360): warning C4267: “参数”: 从“size_t”转换到“INT”，可能丢失数据
+Control\UILabel.cpp(375): warning C4267: “参数”: 从“size_t”转换到“INT”，可能丢失数据
+Control\UILabel.cpp(377): warning C4267: “参数”: 从“size_t”转换到“INT”，可能丢失数据
+  UIList.cpp
+  UIOption.cpp
+  UIProgress.cpp
+  UIRichEdit.cpp
+Control\UIRichEdit.cpp(339): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+Control\UIRichEdit.cpp(1282): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  UIScrollBar.cpp
+  UISlider.cpp
+  UIText.cpp
+  UITreeView.cpp
+  UIWebBrowser.cpp
+  正在生成代码...
+  stb_image.c
+Utils\stb_image.c(764): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+Utils\stb_image.c(777): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+  XUnzip.cpp
+Utils\XUnzip.cpp(3458): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(D:\比特软件\课堂代码\火箭班\C++\进阶\4-收银台-1\duilib-master\duilib-master\x64\Debug\DuiLib.dll) does not match the Linker's OutputFile property value (D:\比特软件\课堂代码\火箭班\C++\进阶\4-收银台-1\duilib-master\duilib-master\bin\DuiLib_d.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1188,5): warning MSB8012: TargetName(DuiLib) does not match the Linker's OutputFile property value (DuiLib_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     正在创建库 ../lib/DuiLib_d.lib 和对象 ../lib/DuiLib_d.exp
+  DuiLib.vcxproj -> D:\比特软件\课堂代码\火箭班\C++\进阶\4-收银台-1\duilib-master\duilib-master\x64\Debug\DuiLib.dll
