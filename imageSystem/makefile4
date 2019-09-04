@@ -1,0 +1,6 @@
+image_server_test:image_server_test.cc 
+	g++ $^ -o $@ -std=c++11 -lpthread 
+
+.PHONY:clean
+clean:
+	rm image_server_test
